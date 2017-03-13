@@ -1,0 +1,28 @@
+#red {
+  background-color: red;
+    /*display: none;*/
+    height: 150px;
+    border-radius: 5px;
+}
+#blue {
+  background-color: blue;
+    /*display: none;*/
+    height: 150px;
+    border-radius: 5px;
+}
+#green {
+  background-color: green;
+    /*display: none;*/
+    height: 150px;
+    border-radius: 5px;
+}
+#yellow {
+  background-color: yellow;
+    /*display: none;*/
+    height: 150px;
+    border-radius: 5px;
+}
+
+.empty {
+  margin-top: 20px;
+}
