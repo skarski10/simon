@@ -4,50 +4,53 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/simon.js"></script>
-    <script type="text/javascript" src="js/simon-interface.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
     <meta charset="utf-8">
     <title>Simon Says</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="color-checker">
       <div id="colors">
         <div class="row top">
           <div class="col-md-5 btn" id="red">
-
+            <br>
+            <br>
+            <form class="red">
+              <button class="btn btn-danger" type="submit" value="red">Red</button>
+            </form>
           </div>
 
-          <div class="col-md-1">
+          <div class="col-md-2">
           </div>
 
           <div class="col-md-5" id="blue">
-
+              <button class="btn btn-primary" type="submit" value="blue">Blue</button>
+            <br>
+            <br>
           </div>
         </div>
-        <div class="row empty">
-
+        <div class="row">
+          <form >
+            <button class="btn" type="submit" id="start">Start</button>
+          </form>
         </div>
         <div class="row bottom">
           <div class="col-md-5" id="green">
-
+              <button class="btn btn-success" type="submit" value="green">Green</button>
+            <br>
+            <br>
           </div>
 
-          <div class="col-md-1">
+          <div class="col-md-2">
           </div>
 
           <div class="col-md-5" id="yellow">
-
+              <button class="btn btn-warning" type="submit" value="yellow">Yellow</button>
+            <br>
+            <br>
           </div>
         </div>
       </div>
-
-
-      <form class="row" id="color-check">
-        <button class="btn btn-danger" type="button" name="button">Red</button>
-        <button class="btn btn-primary" type="button" name="button">Blue</button>
-        <button class="btn btn-success" type="button" name="button">Green</button>
-        <button class="btn btn-warning" type="button" name="button">Yellow</button>
-      </form>
     </div>
   </body>
 </html>
